@@ -1,0 +1,719 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+  /* background-color: azure; */
+
+}
+
+
+
+.start_selling_parent_container{
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  padding: 25px;
+}
+
+
+.Navbar_container{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+.Navbar_container{
+  min-width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+
+.icon{
+  font-size: 35px;
+}
+
+
+.Navbar_leftcontainer{
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+
+
+.Navbar_leftcontainer > div:first-of-type{
+  display: flex;
+  align-items: center;
+  column-gap:5px;
+}
+
+pre{
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  padding:0px !important;
+  margin: 0px !important;
+  display: inline;
+}
+
+
+.Navbar_leftcontainer > div:last-of-type{
+  display: flex;
+  column-gap: 20px;
+}
+
+
+
+
+
+
+/*   navbar right side container starts here */
+
+
+.navbar_right_container > a:last-of-type{
+
+background-color: black;
+color: white;
+padding:5px;
+border-radius: 5px;
+}
+
+.navbar_right_container{
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+/*   navbar right side container ends  here */
+
+
+
+
+
+
+
+
+/* start selling container starts here */ 
+.start_Selling_container{
+  min-width: 100vw;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  padding: 10px;
+
+}
+
+
+.start_Selling_container> div:only-of-type{
+  text-align: center;
+}
+
+
+.start_Selling_container>  button:only-of-type{
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  background-color: green;
+  color:white;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  column-gap: 5px;
+  justify-content: center;
+
+
+}
+
+/* start selling container  ends her  here */ 
+
+
+
+
+
+
+
+/* icons container starts here*/
+.icons__container{
+  display:flex;
+  min-width: 100%;
+  justify-content: space-evenly;
+
+  
+}
+
+.icons__container > div:first-of-type > div:first-of-type ,  
+.icons__container > div:nth-last-of-type(2) > div:first-of-type,
+.icons__container > div:nth-last-of-type(3) > div:first-of-type,
+.icons__container > div:nth-last-of-type(4) > div:first-of-type   {
+  display: flex;
+  align-items: center;
+  
+}
+/* icon container ends here */
+
+
+
+
+
+
+/* sell anyware container starts here */
+.sell_anyware_container{
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+
+
+.sell_anyware_container > button:only-of-type{
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      background-color: orange;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 25px;
+}
+
+
+
+
+
+.facebook__and__instagram_conatiner{
+  display: flex;
+  column-gap: 10px !important;
+
+}
+
+
+
+.facebook__and__instagram_conatiner > div:first-of-type ,
+ .facebook__and__instagram_conatiner > div:last-of-type{
+  max-width: 500px;
+  border: 3px solid purple;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+
+
+
+.sell_anyware_facebook__and__instagram_conatiner{
+  min-width: 100%;
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: flex-end;
+
+}
+
+
+
+.sell_anyware_facebook__and__instagram_conatiner > div:first-of-type{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  column-gap: 20px;
+
+}
+
+
+
+.image{
+  height: 400px;
+  width:325px;
+  border-radius: 10px;
+}
+
+
+
+
+.michal_jakson_text_container{
+
+   min-width: 100%;
+   border: 3px solid red;
+   border-radius: 10px;
+   padding: 10px;
+   
+
+}
+
+
+.jack_image{
+  height: 100px;
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+
+.stars_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.stars_container > div:first-of-type{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.sell_around_the_container{
+    
+  min-width: 100%;
+  border: 3px solid ;
+  border-radius: 20px;
+  padding:10px;  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+
+.sell_around_the_container > div:first-of-type{
+
+     max-width:300px;
+     /* border: 3px solid violet; */
+
+}
+
+.sell_around_the_container div:last-of-type{
+  display: flex;
+  align-items: baseline;
+  column-gap: 20px;
+
+
+}
+
+
+.lastcontainer_of_sell_around{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.cards_container{
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.cards_container> div:first-of-type ,
+ .cards_container> div:nth-child(2) ,
+ .cards_container> div:nth-child(3) {
+  min-height: 200px;
+  min-width: 200px;
+
+
+}
+
+.cards_container    button{
+  border: none;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.icon_height{
+  font-size: 30px;
+  border: 1px solid  black;
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tablet reponsive strts here */
+
+@media (min-width:481px ) and (max-width:996px){
+
+  .Navbar_container{
+    min-width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+
+  .icons__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(200px , 1fr) );
+    justify-content: space-evenly;
+    padding-left: 20px;
+    row-gap: 10px;
+    min-width: 100%;
+  
+    
+  }
+
+
+
+.sell_anyware_facebook__and__instagram_conatiner{
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+
+.image{
+  width: 100%;
+  height:200px;
+  object-fit: fill;
+  border-radius: 10px;
+}
+
+
+.sell_around_the_container{
+    
+  min-width: 100%;
+  border: 3px solid ;
+  border-radius: 20px;
+  padding:10px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.sell_around_the_container > div:first-of-type{
+   min-width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+   align-items: center;
+
+}
+
+
+.sell_around_the_container > div:last-of-type{
+  min-width: 100%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* mobile responsive starts here */
+
+
+@media (max-width:480px){
+
+
+
+  .start_selling_parent_container{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 15px;
+  }
+  
+
+
+
+
+
+
+.Navbar_container{
+  min-width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 15px;
+
+}
+
+.navbar_right_container > a:last-of-type{
+  white-space: nowrap;
+}
+
+
+
+.start_Selling_container>  button:only-of-type{
+       width:100%;
+  
+  
+}
+
+.start_Selling_container > h1:only-of-type{
+  white-space: nowrap;
+  font-size: 26px;
+}
+  
+
+.icons__container{
+  display:flex;
+  flex-direction: column;
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5px;
+
+  
+}
+
+.icons__container>div:first-of-type,
+.icons__container>div:nth-last-of-type(2),
+.icons__container>div:nth-last-of-type(1),
+.icons__container>div:nth-last-of-type(0){
+          min-width: 100%;
+          border-radius: 10px;
+          border: 3px solid red;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+}
+
+
+
+
+
+/* sell anyware container starts here */
+.sell_anyware_container > button:only-of-type{
+  display: flex;
+  min-width: 100%;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  background-color: orange;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+}
+
+/* sell anyware container ends  here */
+
+
+.facebook__and__instagram_conatiner{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  column-gap: 10px !important;
+
+}
+
+
+
+
+
+
+.sell_anyware_facebook__and__instagram_conatiner{
+  min-width: 100%;
+  display: flex;
+  row-gap: 10px;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.image{
+  min-width: 100%;
+  min-height: 100px !important;
+  object-fit: fill;
+  border-radius: 10px;
+}
+
+
+
+
+.michal_jakson_text_container{
+
+  min-width: 100%;
+  border: 3px solid red;
+  border-radius: 10px;
+  padding: 5px;
+
+
+
+
+}
+
+
+
+.stars_container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.sell_around_the_container{
+    
+  min-width: 100%;
+  border: 3px solid ;
+  border-radius: 20px;
+  padding:10px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* mobile responsive  end here here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
